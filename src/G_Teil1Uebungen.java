@@ -5,13 +5,7 @@ public class G_Teil1Uebungen {
     public static void main(String[] args) {
        // cashMenu();
         Scanner console1 = new Scanner(System.in);
-//--------------------> Gerzic Teil 1_UE1
-
-//        System.out.println("Bitte gib deinen Namen ein: " );
-//        String nameMM = console1.nextLine();
-//        System.out.println("Perfekt " + nameMM + "! Und nun dein Alter: ");
-//        int alterMM = console1.nextInt();
-//        System.out.println("Yess!! Willkommen " + nameMM + ". Ich sehe, du bist " + alterMM + " Jahre alt.");
+//-------------------->
 
 //--------------------> Gerzic Teil 1_UE2
 

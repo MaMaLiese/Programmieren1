@@ -1,0 +1,6 @@
+Variablen:
+deklarieren (erzeugen) - initialisieren (Wert zuweisen) - kann dann als Parameter an Funktionen übergeben werden
+
+Datentypen:
+- Primitive Datentypen: byte->short->int->long->float (Gleitkomma)->double(Gleitkomma); char 'b'; boolean true/false
+- Objekte: string
