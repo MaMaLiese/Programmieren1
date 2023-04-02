@@ -1,5 +1,3 @@
-package arrays;
-
 public class FirstArrays {
     public static void main(String[] args) {
         int[] firstArray = new int[5]; //5 = länge wieviele werte drinnen

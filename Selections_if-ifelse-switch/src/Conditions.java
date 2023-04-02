@@ -1,5 +1,3 @@
-package compute;
-
 public class Conditions {
     public static void main(String[] args) {
         boolean isSenior = true;

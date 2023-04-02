@@ -1,4 +1,3 @@
-package arrays;
 // int [][] arrayOfArrays;
 // arrayOfArrays
 public class MultiArray {

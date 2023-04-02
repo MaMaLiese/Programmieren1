@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Programmieren1.iml" filepath="$PROJECT_DIR$/Programmieren1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Loops/Loops.iml" filepath="$PROJECT_DIR$/Loops/Loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Methods_static-overload/Methods_static-overload.iml" filepath="$PROJECT_DIR$/Methods_static-overload/Methods_static-overload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MixedExercises/MixedExercises.iml" filepath="$PROJECT_DIR$/MixedExercises/MixedExercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP/OOP.iml" filepath="$PROJECT_DIR$/OOP/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1_GeneralCoding.iml" filepath="$PROJECT_DIR$/P1_GeneralCoding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Selections_if-ifelse-switch/Selections_if-ifelse-switch.iml" filepath="$PROJECT_DIR$/Selections_if-ifelse-switch/Selections_if-ifelse-switch.iml" />
     </modules>
   </component>
 </project>

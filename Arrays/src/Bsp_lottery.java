@@ -1,5 +1,3 @@
-package arrays;
-
 //wollen speichern was wir als Lotto-Zahlen
 //und welche Lotto zahlen tatsächlich kommen
 
