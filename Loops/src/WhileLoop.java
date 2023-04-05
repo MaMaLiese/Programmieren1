@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class WhileLoop {
+    //The while loop loops through a block of code as long as a specified condition is true
+    //im codeblock muss sich etwas ändern (i++) sonst infinity loop
     public static void main(String[] args) {
 
         Scanner scanFrageuser = new Scanner (System.in);
