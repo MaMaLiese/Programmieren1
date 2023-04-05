@@ -1,4 +1,4 @@
-public class RepairLoop {
+public class DoWhile {
     public static void main(String[] args) {
 //        int i = 1;
 //                do {
@@ -7,7 +7,7 @@ public class RepairLoop {
 //                } while ( i == 1);
 
 
-        //man muss immer schaun, dass sich innerh. unseres Codeblocks etwas ändert
+        //man muss immer schaun, dass sich innerh. unseres Codeblocks etwas ändert (b++), sonst rennt der loop infinite
         int b = 1;
 
         while (b < 2) {
