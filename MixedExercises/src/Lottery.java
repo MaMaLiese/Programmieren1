@@ -1,7 +1,10 @@
 //wollen speichern was wir als Lotto-Zahlen
 //und welche Lotto zahlen tatsächlich kommen
+//prüfung wie viele Übereinstimmungen es gibt und je nach dem bestimmte Textausgabe
 
-public class Bsp_lottery {
+import java.util.Arrays;
+
+public class Lottery {
     public static void main(String[] args) {
         int[] myLotteryGuesses = new int[6];
         myLotteryGuesses[0] = 7;
@@ -17,12 +20,13 @@ public class Bsp_lottery {
         int countMatches = 0;
 
         for (int i = 0; i < myLotteryGuesses.length; i++) {
-            if (myLotteryGuesses[i] == winningNumbers[i])
-            {
+            if (myLotteryGuesses[i] == winningNumbers[i]) {
                 countMatches = countMatches + 1; //kann auch countMatches++ schreiben
 
             }
+
         }
+        System.out.println("The winning Numbers are: " + Arrays.toString(winningNumbers));
 
         if (countMatches == 6) {
             System.out.println("Jackpot");
@@ -32,24 +36,24 @@ public class Bsp_lottery {
             System.out.println("Third Price");
         } else
             System.out.println("You lost!");
-        }
+    }
 
 
-        public static int[] getRandomLotteryNumbers () {
-            int[] randomNumbers = new int[6];
-            for (int i = 0; i < randomNumbers.length; i++) {
-                //Math ist class die es schoon gibt, gleich wie scanner
-                int number = (int) (Math.random() * 100); //Math hat double, wir auf int umgewandelt
-                //damit immer wieder schauen ob wir neue zufällige Zahl
-                //zahlen eingrenzen auf 49, weil in Methode Math bis 99 gespeichert; und random so definiiert, dass keine
-                //neg zahlen
-                while (number > 49 || number < 1) {
-                    number = (int) (Math.random() * 100);
-                }
-                randomNumbers[i] = number;
-
+    public static int[] getRandomLotteryNumbers() {
+        int[] randomNumbers = new int[6];
+        for (int i = 0; i < randomNumbers.length; i++) {
+            //Math ist class die es schon gibt, gleich wie Scanner
+            int number = (int) (Math.random() * 100); //Math hat double, wir auf int umgewandelt
+            //damit immer wieder schauen ob wir neue zufällige Zahl
+            //zahlen eingrenzen auf 49, weil in Methode Math bis 99 gespeichert; und random so definiiert, dass keine
+            //neg zahlen
+            while (number > 49 || number < 1) {
+                number = (int) (Math.random() * 100);
             }
-            return randomNumbers;
+            randomNumbers[i] = number;
+
+        }
+        return randomNumbers;
         //kann Klammer leer lassen, oder array schon reingeben, wir daweil nix
     }
 }

@@ -1,5 +1,9 @@
+import java.util.Scanner;
+
 public class ForEach_IntArray {
     public static void main(String[] args) {
+
+
         int[] firstArray = new int[5]; //5 = länge wieviele werte drinnen
 
         firstArray[0] = 1; //an erster Stelle ist der Wert 1
@@ -27,7 +31,19 @@ public class ForEach_IntArray {
             //in Array muss alles den gleichen Datentyp haben, aber ich kann jeden Datentyp verwenden
         }
 
-        System.out.println("-----------for-each------------");
+        System.out.println("---------------------dynamic, NO 'out of boundaries'----------");
+        //erstelle Array in der Größe, welche dynamisch vorgegeben wird
+        //schreibe so, dass keine "out of boundaries-exception" kommt
+        //um das Array (neu - weil ja oben schon) durch den Benutzer zu befüllen:
+        Scanner userInput = new Scanner(System.in);
+        //find out how many elements Array has mit .length
+        for (int i = 0; i < firstArray.length; i++) {
+            System.out.printf("was gibtst du " + i + "ein:");
+            firstArray[i] = userInput.nextInt();
+        }
+
+
+        System.out.println("-----------Ab hier: for-each------------");
         //wollen firstArray und wollen zu jedem Wert 12 dazuzählen
         //dafür:-----"for-each" loop, which is used exclusively to loop through elements in arrays
         //for each int-element (called "element", or "i" - as in index) in firstArray, print out the value of element (or i)
@@ -38,7 +54,7 @@ public class ForEach_IntArray {
         }
 
         for (int itemInArray : firstArray) {
-          //  itemInArray=itemInArray +12;
+            //  itemInArray=itemInArray +12;
             System.out.println(itemInArray);
         }
 
