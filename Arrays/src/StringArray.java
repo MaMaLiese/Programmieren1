@@ -1,6 +1,6 @@
 import java.util.Arrays; //zuhause musste ich class 'Arrays' importieren
 
-public class SimpleArray {
+public class StringArray {
     public static void main(String[] args) {
         String[] name = new String[5]; //Größe v Array ist fix!!!
         name[0] = "Manfred";

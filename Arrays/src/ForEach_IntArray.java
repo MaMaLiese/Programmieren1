@@ -1,4 +1,4 @@
-public class ForEachArray {
+public class ForEach_IntArray {
     public static void main(String[] args) {
         int[] firstArray = new int[5]; //5 = länge wieviele werte drinnen
 
@@ -27,33 +27,30 @@ public class ForEachArray {
             //in Array muss alles den gleichen Datentyp haben, aber ich kann jeden Datentyp verwenden
         }
 
-        //wollen erstes array und wollen zu jedem Wert 12 dazuzählen
+        System.out.println("-----------for-each------------");
+        //wollen firstArray und wollen zu jedem Wert 12 dazuzählen
         //dafür:-----"for-each" loop, which is used exclusively to loop through elements in arrays
         //for each int-element (called "element", or "i" - as in index) in firstArray, print out the value of element (or i)
-
-        System.out.println("-----------for-each------------");
 
         for (int element : firstArray) {
             element = element + 12;
             System.out.println(element);
-
         }
 
         for (int itemInArray : firstArray) {
-            itemInArray=itemInArray +12;
+          //  itemInArray=itemInArray +12;
             System.out.println(itemInArray);
         }
 
-
         System.out.println("-------------------");
-
 
         int[] thirdArray = new int[5];
         thirdArray[1] = 5;
 
         for (int i = 0; i < thirdArray.length; i++) {
             System.out.println(thirdArray[i]);
-
         }
+
+
     }
 }
