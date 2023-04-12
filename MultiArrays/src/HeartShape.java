@@ -1,6 +1,6 @@
 // int [][] arrayOfArrays;
 // arrayOfArrays
-public class MultiArray {
+public class HeartShape {
     public static void main(String[] args) {
         int [][] MultiArray = {
                 {0, 1, 0, 0, 0, 1, 0}, // Beistrich heißt da kommt noch was
