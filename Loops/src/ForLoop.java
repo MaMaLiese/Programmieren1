@@ -1,12 +1,15 @@
 import java.util.Scanner;
 
 public class ForLoop { //When you know exactly how many times you want to loop through a block of code
+    //wenn wir wissen wie oft wirs wh wollen nehmen wir for
+    //in for-schleife geh ich rein, wenn bedingung true
+
     //Statement 1 is executed (one time) before the execution of the code block. bzw. sets a variable before the loop starts
     //Statement 2 defines the condition for executing the code block.
     //Statement 3 is executed (every time) after the code block has been executed.
     public static void main(String[] args) {
         //prints the numbers 0 to 4
-        for (int i=0; i<=4; i++) {
+        for (int i=0; i<=4; i++) { //i++ entspricht i = i+1 / damit schleife keine endlosschleife
             System.out.println(i);
         }
         int sum = 0;
@@ -29,7 +32,7 @@ public class ForLoop { //When you know exactly how many times you want to loop t
         System.out.println(sum);
 
          //prints only even numbers between 0 and 10
-        for(int i=0; i <=10; i = i+2){
+        for(int i=0; i <=10; i = i+2){ //oder i += 2 als kuerzere Schreibweise
             System.out.println(i);
         }
 

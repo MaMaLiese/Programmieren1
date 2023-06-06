@@ -1,4 +1,4 @@
-public class CountDown {
+public class WhileCountDown {
     public static void main(String[] args) {
         int startingNumber = 15;
 
